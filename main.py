@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<p>Hdasnios, World!</p>"
+    return "<p>Hello, World!</p>"
 
 @app.route('/hello/')
-def hello_world1():
+def index():
     return 'Hi my name is someone'
